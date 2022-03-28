@@ -1,13 +1,14 @@
-import { useEffect, useState } from 'react';
 
-
-function GetFile({ data }) {
+function GetFile({ film }) {
 
 
     return (
-        <div >
+        <div style={{ color: 'white' }} >
             <div >
-                {console.log(data)}
+                {film?.episode_id}
+            </div>
+            <div >
+                {film?.title} - {film?.release_date}
             </div>
 
         </div>
