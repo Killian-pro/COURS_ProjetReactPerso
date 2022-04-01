@@ -4,7 +4,6 @@ import Movie from '../Componant/Movie';
 function Home() {
     const [movies, setMovies] = useState([]);
     const [scrollTop, setScrollTop] = useState(0);
-    const [scrolling, setScrolling] = useState(false);
 
     useEffect(() => {
         appelFilm()
@@ -13,7 +12,6 @@ function Home() {
     useEffect(() => {
         const onScroll = e => {
             setScrollTop(e.target.documentElement.scrollTop);
-            setScrolling(e.target.documentElement.scrollTop > scrollTop);
         };
         window.addEventListener("scroll", onScroll);
 

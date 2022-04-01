@@ -1,3 +1,9 @@
+# Projet REACT ESI 4 avec Mounir BENDAHMANE
+
+Création d'une application en React.
+Utilisation de l'api 'https://swapi.dev/api/films'
+Création d'un composant parent et enfant.
+
 # REACT CSS
 
 -inline :
