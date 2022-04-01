@@ -13,3 +13,24 @@ className={app.movie}
 import './App.css';
 className="movie"
 *Suppression du code mort , plus performant perte de temps*
+
+
+# Cours
+
+composant -> vue peux la decomposer en composant
+
+useeffect fct remplace componant di mount
+
+react jsx-> js et typescript surcoucche
+
+nb de composnant infini mais limite RAM
+
+event listenern -> on passe le handler , on enleve parenthese pour mettre une reference (c'est une adresse)
+
+usestate permet d'actualiser la vue en mettant a jour les variable
+
+infinité de state mais si state compliqué utilisé [state, dispatch] = useReducer 
+
+reducer prend fct et initial state
+
+reducer fct pur en fonction des resultats 100% sur des resultats
