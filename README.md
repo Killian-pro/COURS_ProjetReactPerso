@@ -40,3 +40,5 @@ infinité de state mais si state compliqué utilisé [state, dispatch] = useRedu
 reducer prend fct et initial state
 
 reducer fct pur en fonction des resultats 100% sur des resultats
+
+![Screenshot](Capture.JPG)
